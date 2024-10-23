@@ -1,13 +1,10 @@
 
-import './App.css'
-import { Button } from './components/ui/button'
+import { Navigate, Route, Routes } from 'react-router-dom'
 
 function App() {
 
   return (
-    <div>
-        <Button>hello</Button>
-    </div>
+    <div>home</div>
   )
 }
 
